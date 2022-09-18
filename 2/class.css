@@ -15,8 +15,8 @@ header, nav{
 .HeadMenu li {
     margin-top: 25px;
     margin-right: 100px;
-display: inline-block;
-vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .HeadMenu a {
@@ -27,7 +27,9 @@ vertical-align: middle;
     }
 
 .Logo{
-    margin-top: 25px;
+    position: absolute;
+    top: 50;
+    left: 50;
     float: left;
 }
 
@@ -45,4 +47,51 @@ vertical-align: middle;
 
 .HeadMenu a:hover{
     color: #b800ff;
+}
+
+.About{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.About h1{
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: wheat;
+    
+}
+
+.Card{
+margin-bottom: 50px;
+}
+
+.Info ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.TextInfo li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.AboutMeTop{
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 30px;    font-size: 30px;
+}
+
+.h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: middle;
+    display:flex;
+    font-size: 20px;
 }
