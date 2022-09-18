@@ -58,12 +58,13 @@ header, nav{
     margin-top: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    color: wheat;
+    color: #b800ff ;
     
 }
 
 .Card{
 margin-bottom: 50px;
+display:flex;
 }
 
 .Info ul{
@@ -86,7 +87,10 @@ margin-bottom: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     vertical-align: middle;
     display: inline-block;
-    margin-bottom: 30px;    font-size: 30px;
+    display:flex;
+    margin-bottom: 30px;    
+    font-size: 30px;
+    color: #b800ff;
 }
 
 .h2{
@@ -94,4 +98,20 @@ margin-bottom: 50px;
     vertical-align: middle;
     display:flex;
     font-size: 20px;
+}
+
+.aa {
+    margin-bottom: 30px;    
+    margin-right: 20px;
+    display: inline-block;
+}
+.What{
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+
 }
