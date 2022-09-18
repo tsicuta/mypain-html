@@ -55,6 +55,7 @@ header, nav{
 }
 
 .About h1{
+    margin-left: 200px;
     margin-top: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -78,7 +79,7 @@ display:flex;
 .TextInfo li{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.AboutMeTop{
+.h2{
     margin-right: 100px;
     margin-bottom: 30px;
 }
@@ -86,7 +87,8 @@ display:flex;
 .h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     vertical-align: middle;
-    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
     display:flex;
     margin-bottom: 30px;    
     font-size: 30px;
