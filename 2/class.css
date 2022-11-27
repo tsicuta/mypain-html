@@ -1,11 +1,15 @@
 *{
-    margin: 0;
-    padding: 0;
+    background: black;
+    background-color: black;
 }
 
-body{
+:root{
     background: black;
-    color: wheat;
+    background-color: black;
+}
+.mybody{
+    background: black;
+    background-color: black;
 }
 header, nav{
     vertical-align: middle;
@@ -113,6 +117,10 @@ display:flex;
 }
 .Hutao{
     margin-left: 200px;
+}
+
+br{
+margin-top: 50px;
 }
 footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
