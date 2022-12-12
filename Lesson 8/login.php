@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section><form name="myForm" method="post" onsubmit="return validateForm();" action="index.html">
+    <section><form name="myForm" method="post" onsubmit="return validate();" action="login.php]">
         
         <div class="form-group">
             <label for="email">Email</label>
@@ -26,6 +26,6 @@
         <button type="submit">Войти</button>
 </form>
 </section>
-<script src="app.js"></script>
+<script src="app_login.js"></script>
 </body>
 </html>

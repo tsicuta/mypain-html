@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section><form name="myForm" method="post" onsubmit="return validateForm();" action="index.html">
+    <section><form name="myForm" method="post" onsubmit="return validateForm();" action="index.php">
         <div class="form-group">
             <label for="name">Имя</label>
             <label class="form-error" id="name_error">Поле не должно оставаться пустым.*</label>
