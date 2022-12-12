@@ -79,6 +79,21 @@ function upItemsElement(event) {
     showItems()
 }
 
+function downItemsElement(event) {
+    let el = event.currentTarget,
+        fromIndex = parseInt(el.dataset.eid),
+        toIndex = fromIndex + 1,
+        tmpar = items.splice(fromIndex, 1)[0]
+
+    console.log(fromIndex)
+    console.log(toIndex)
+    console.log(tmpar)
+
+    items.splice(toIndex, 0, tmpar)
+    console.log(items)
+    showItems()
+}
+
 function checkboxHanlder(event) {
     let el = event.currentTarget,
         eid = el.dataset.eid
@@ -88,3 +103,4 @@ function checkboxHanlder(event) {
 }
 
 if (items) showItems()
+
