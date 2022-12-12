@@ -47,9 +47,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 40px;
-    margin-left: 60px;
-    margin-top: 30px;
+    height: 24%;
+    margin-left: 10%;
+    margin-top: -1%;
 }
 
 .mylogo {
@@ -308,6 +308,7 @@ section {
 
 .shop li {
     margin-top: 0%;
+    margin-left: 0px;
     margin-inline-end: 40px;
 }
 
