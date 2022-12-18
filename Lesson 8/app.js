@@ -9,7 +9,6 @@ function validateForm() {
     else {
         document.getElementById('name_error').style.display = 'none'
     }
-
     let second_name = document.forms['myForm']['second_name'].value
     console.log(second_name)
     if (!second_name) {
@@ -18,7 +17,6 @@ function validateForm() {
     else{
         document.getElementById('second_name_error').style.display = 'none'
     }
-    
     let email = document.forms['myForm']['email'].value
     console.log(validateEmail(email))
     if (!email || !validateEmail(email)) {
@@ -47,10 +45,9 @@ function validateForm() {
     }
 
     let gender = document.forms['myForm']['gender'].value
-    let male = document.forms['myForm']['male'].checked
-    let female = document.forms['myForm']['female'].checked
+    let gend = document.forms['myForm']['gender'].id
     console.log(gender)
-    if (!male && !female) {
+    if (!gender) {
         document.getElementById('gender_error').style.display = 'block'
     }
     else {
@@ -59,10 +56,16 @@ function validateForm() {
      
 
     let request = new XMLHttpRequest
+    /*if (nmBool && snmBool && emailBool && psBool && gnBool){
+        
+    }*/
     request.open('POST', './server.php')
     request.setRequestHeader("Content-type", "application/json;charset=UTF-8")
     let data = {
-        name: name
+        name: name,
+        surname:second_name,
+        email: email,
+        password: passwd2,
     }
     request.send(JSON.stringify(data))
     request.onreadystatechange = function () {

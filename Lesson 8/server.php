@@ -5,7 +5,7 @@ $data = json_decode($json, true);
 $action = $_REQUEST['action'];
 
 $servername = "localhost";
-$username = "username";
+$username = "root";
 $password = "";
 $dbname = "dannie";
 
@@ -15,6 +15,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Ошибка подключения: " . $conn->connect_error);
   }
+  echo "Connected successfully";
 
 if($action==='reg'){
     $sql = "SELECT * FROM dannie where email='". $data['email']."'";
@@ -48,3 +49,4 @@ if ($result->num_rows > 0){
 }
 }
   ?>
+  
